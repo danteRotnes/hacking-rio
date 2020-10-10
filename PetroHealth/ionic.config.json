@@ -1,0 +1,7 @@
+{
+  "name": "PetroHealth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
