@@ -1,4 +1,4 @@
-import { NavController } from '@ionic/angular';
+import { NavController, MenuController } from '@ionic/angular';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RankingPPage implements OnInit {
 
-  constructor(private navCtrl:NavController) { }
+  constructor(private navCtrl:NavController, private menu:MenuController) { }
 
   ngOnInit() {
   }
@@ -16,5 +16,10 @@ export class RankingPPage implements OnInit {
   showEquipe(){
     this.navCtrl.navigateForward('ranking-e');
   }
+  openFirst() {
+    this.menu.enable(true, 'main-menu');
+    this.menu.open('main-menu');
+  }
+
 
 }
