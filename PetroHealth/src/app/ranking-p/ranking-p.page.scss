@@ -1,27 +1,28 @@
 .header-bg{
-    height: 250px;
-    width:100%;
-    background: #66adff;
-    box-shadow: 0px 1px 5px rgba(74, 93, 202, 0.466);
-    margin-bottom: 30px;
-  }
+  height: 190px;
+  width:100%;
+  background: #66adff;
+  box-shadow: 0px 1px 5px rgba(74, 93, 202, 0.466);
+  margin-bottom: 30px;
+}
 
-  .menu{
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 10%;
-    width: 40px;
-    z-index: 99;
+.menu{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 40px;
+  z-index: 99;
 }
 
 .primeiros-soc{
-  position: absolute;
-  margin-top: 30%;
-  width: 100%;
-  margin-left: 10%;
-  margin-right: 15%;
+position: absolute;
+margin-top: 22%;
+width: 100%;
+margin-left: 10%;
+margin-right: 15%;
 
 }
+
 .nav{
   position: absolute;
   margin-top: 0%;
@@ -42,6 +43,49 @@
   background: #66adff;
   box-shadow: 5px 1px 5px rgba(74, 93, 202, 0.466);
   margin-bottom: 30px;
+  img{
+    display: block;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 4px solid #fff;
+
+  }
+  h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    width: 80%;
+
+  }
+  h2{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    width: 100%;
+
+  }
+
+}
+
+.rank-geral{
+  position: absolute;
+  top: 340px;
+  display: flex;
+  width:100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
   img{
     display: block;
     margin-left: 30px;
