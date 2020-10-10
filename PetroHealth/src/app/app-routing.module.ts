@@ -42,7 +42,16 @@ const routes: Routes = [
   {
     path: 'ranking-e',
     loadChildren: () => import('./ranking-e/ranking-e.module').then( m => m.RankingEPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
   }
+
+
 
 
 ];
