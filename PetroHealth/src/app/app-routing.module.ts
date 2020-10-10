@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
@@ -14,10 +14,6 @@ const routes: Routes = [
   {
     path: 'calendario',
     loadChildren: () => import('./calendario/calendario.module').then( m => m.CalendarioPageModule)
-  },
-  {
-    path: 'ranking',
-    loadChildren: () => import('./ranking/ranking.module').then( m => m.RankingPageModule)
   },
   {
     path: 'cuidados-pessoais',
@@ -42,7 +38,16 @@ const routes: Routes = [
   {
     path: 'loja',
     loadChildren: () => import('./loja/loja.module').then( m => m.LojaPageModule)
+  },
+  {
+    path: 'ranking-p',
+    loadChildren: () => import('./ranking-p/ranking-p.module').then( m => m.RankingPPageModule)
+  },
+  {
+    path: 'ranking-e',
+    loadChildren: () => import('./ranking-e/ranking-e.module').then( m => m.RankingEPageModule)
   }
+
 
 ];
 

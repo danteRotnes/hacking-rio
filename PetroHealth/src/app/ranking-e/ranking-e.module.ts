@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RankingPageRoutingModule } from './ranking-routing.module';
+import { RankingEPageRoutingModule } from './ranking-e-routing.module';
 
-import { RankingPage } from './ranking.page';
+import { RankingEPage } from './ranking-e.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RankingPageRoutingModule
+    RankingEPageRoutingModule
   ],
-  declarations: [RankingPage]
+  declarations: [RankingEPage]
 })
-export class RankingPageModule {}
+export class RankingEPageModule {}

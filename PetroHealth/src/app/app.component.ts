@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Ranking',
-      url: 'ranking',
+      url: 'ranking-p',
       icon: ''
     },
     {
@@ -37,8 +37,7 @@ export class AppComponent implements OnInit {
       url: 'loja',
       icon: ''
     }
-  ];
-//  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+];
 
   constructor(
     private platform: Platform,
